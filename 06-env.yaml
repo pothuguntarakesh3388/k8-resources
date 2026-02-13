@@ -11,5 +11,5 @@ spec:
       value: devops
     - name: trainer
       value: "rakesh"
-    - name: environment"
-      value: prod
+    - name: duration"
+      value: "120hrs"
