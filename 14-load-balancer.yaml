@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-lb
 spec:
-  type: loadbalancer
+  type: LoadBalancer
   selector:
     project: expense
     component: backend-lb
@@ -30,5 +30,4 @@ spec:
     - name: nginx
       image: nginx
       ports:
-
         - containerPort: 80
