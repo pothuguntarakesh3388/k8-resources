@@ -5,14 +5,12 @@ metadata:
   labels:
     app: frontend
     tier: web
-
 spec:
   replicas: 3
   selector:
     matchLabels:
       app: frontend
       tier: web
-
   template:
     metadata:
       labels:
@@ -21,4 +19,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable-alpine3.23-perl
+        image: nginx
