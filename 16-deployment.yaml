@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: pothugunta/deployment:1.0
+        image:  pothugunta/deployment:2.0
         ports:
         - containerPort: 80
 
